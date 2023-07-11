@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+/* body{
+  background: #0f0c29; 
+   /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  */
+   /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #24243e, #302b63, #0f0c29);  */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* } */ *
+body {
+  background-image: url('https://www.ciphr.com/wp-content/uploads/2023/01/arrow-bg-r.jpg'); /* Replace 'image-url.jpg' with the URL of your desired image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.register{
+  max-width: 978px;
+  width: 100vw;
+  display:flex;
+  
+  border-radius: 5px;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+  background-color: rgba(9, 9, 21, 0.5); /* Replace with your desired blue color values and alpha */
+
+}
+
+
+
+.register span{
+  color: #adb5bd;
+}
+
+#form{
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+}
+
+#form >  input, .btn{
+  /* border: 1px solid #e9ecef; */
+  padding: .9em 1em;
+}
+
+#form > input:focus{
+  outline: none;
+}
+
+#form > .btn{
+  background-color: #9dd1f1;
+  color: #e9ecef;
+  font-size: 1em;
+  padding: 5px 10px; /* Adjust the padding to your desired value */
+  margin-left: 10%;
+  margin-right: 10%;
+   /* Center the button */
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  gap: 1em;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+/* .flex2{
+ width: 50px;;
+} */
+
+.register .col-1{
+  margin: auto;
+  padding: 3em 0;
+  color: #e9ecef;
+}
+
+.register .col-2 img{
+  width: 480px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+@media screen and (min-width: 860px)  {
+  .register .col-2 img{
+    display: initial;
+  }
+}
