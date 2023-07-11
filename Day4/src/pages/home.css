@@ -1,0 +1,55 @@
+body{
+    background-image: url("https://easyroster.net/wp-content/uploads/2021/11/attendance-system-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: moveTitle 3s infinite;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: moveSubtitle 3s infinite;
+  }
+  
+  @keyframes moveTitle {
+    0% { transform: translateX(-50px); }
+    50% { transform: translateX(50px); }
+    100% { transform: translateX(-50px); }
+  }
+  
+  @keyframes moveSubtitle {
+    0% { transform: translateY(-20px); }
+    50% { transform: translateY(20px); }
+    100% { transform: translateY(-20px); }
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 32px;
+    }
+    
+    .subtitle {
+      font-size: 18px;
+    }
+  }
+  
