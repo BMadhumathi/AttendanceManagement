@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+/* body{
+  background: #0f0c29; 
+   /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  */
+   /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #24243e, #302b63, #0f0c29);  */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* } */ *
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.register{
+  max-width: 708px;
+  width: 70vw;
+  display:flex;
+  padding: 3em; /* Increase the padding to your desired value */
+
+  border-radius: 5px;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+  background-color: rgba(9, 9, 21, 0.5); /* Replace with your desired blue color values and alpha */
+
+}
+
+
+
+.register span{
+  color: #adb5bd;
+  
+}
+
+#form{
+  max-width: 280px;
+  width: 100vw;
+  margin: 2em auto;
+}
+
+#form >  input, .btn{
+  /* border: 1px solid #e9ecef; */
+  padding: .9em 1em;
+
+}
+
+#form > input:focus{
+  outline: none;
+}
+#form > input {
+  padding: 1.1em 1em; /* Increase the padding to your desired value */
+  font-size: 1.2em; 
+  width: 100%; /* Set the width to 100% to fill the available space */
+  box-sizing: border-box; /* Include padding and border in the total width */
+  
+ /* Increase the font size to your desired value */
+}
+
+
+#form > .btn{
+  background-color: #9dd1f1;
+  color: #060606;
+  font-size: 1.2em;
+  padding: 4px 10px; /* Adjust the padding to your desired value */
+  margin-left: 15%;
+  margin-right: 10%;
+   /* Center the button */
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  gap: 1em;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+/* .flex2{
+ width: 50px;;
+} */
+
+.register .col-1{
+  margin: auto;
+  padding: 2em 0;
+  color: #0b0c0c;
+  font-size: larger;
+}
+
+.register .col-2 img{
+  width: 480px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+@media screen and (min-width: 860px)  {
+  .register .col-2 img{
+    display: initial;
+  }
+}
