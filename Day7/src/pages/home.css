@@ -1,0 +1,151 @@
+
+ body {
+  /* background-image: url("https://easyroster.net/wp-content/uploads/2021/11/attendance-system-scaled.jpg"); */
+  background-image: url('D:\register\src\images\bg.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  overflow-y: scroll; /* Enable vertical scrolling */
+
+} 
+
+
+.container {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+padding-bottom: 100px; /* Add padding at the bottom to create space for scrolling */
+position: relative;
+
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 40px; /* Add gap for space between cards */
+  width: 120%;
+}
+
+
+
+.footer {
+  background-color: #426ca7;
+  padding: 90px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+.show-footer .footer {
+  display: block;
+}
+
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: moveTitle 3s infinite;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* animation: moveSubtitle 3s infinite; */
+
+.moving-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-count {
+  font-size: 64px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+
+@keyframes moveTitle {
+  0% {
+    transform: translateX(-50px);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(-50px);
+  }
+}
+
+@keyframes moveSubtitle {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(-20px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+}
+
+
