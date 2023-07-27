@@ -1,0 +1,61 @@
+/* AddStudent.css */
+
+.form-container-wrapper {
+  width: 500px; /* Set a specific width for the form container */
+  margin: 0 auto;
+  padding: 90px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #70bdc3;
+  
+}
+
+.form-group input {
+  padding: 10px;
+  width:100%; /* Take full width of the input container */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  height: fit-content;
+  box-sizing: border-box; /* Ensure padding and border don't increase the width */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 0.6cm;
+}
+
+
+.but {
+  padding: 12px 20px;
+  background-color: #08ffe6;
+  color: #5182d6;
+  border: none;
+  border-radius: 3px;
+  font-size: 28px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
+
+.alert {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 3px;
+}

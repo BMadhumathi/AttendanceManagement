@@ -1,0 +1,82 @@
+.daily-attendance {
+    margin: 20px;
+    padding: 20px;
+    background-color: transparent;
+  }
+  
+  .daily-attendance h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .filter {
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color:black;
+
+  }
+  
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 26px;
+    text-align: left;
+    color: white;
+    font-size: 28px;
+  }
+  
+  th {
+    background-color: hsl(0, 1%, 53%);
+  }
+  
+  .attendance-summary {
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .attendance-summary span {
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .checkbox-container input[type="checkbox"] + label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .checkbox-container input[type="checkbox"] + label::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/483/483361.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .checkbox-container input[type="checkbox"]:checked + label::after {
+    opacity: 1;
+  }
+  

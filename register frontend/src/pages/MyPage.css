@@ -1,0 +1,23 @@
+/* MyPage.css */
+
+.button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .button:hover {
+    background-color: #2183c1;
+  }
+  
+  /* Additional styles for the sections (optional) */
+  section {
+    margin-bottom: 30px;
+  }
+  

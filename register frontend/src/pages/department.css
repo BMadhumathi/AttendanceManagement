@@ -1,0 +1,45 @@
+.department-card-container {
+  padding-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.department-card {
+  background-color: #f0f0f0;
+  padding: 60px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.department-card:hover {
+  transform: translateY(-5px);
+  color: rgb(235, 224, 223);
+  background-color: rgb(36, 80, 112);
+}
+
+.department-name {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(7, 90, 146);
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+.page-title{
+  padding-bottom: 190px;
+  color: #0e0e0e;
+}
+.department-description {
+  font-size: 16px;
+  color: #0e0e0e;
+
+}
+.department-card:hover .department-name { /* Add this selector for the department name on hover */
+  color: #fff; /* Change the color to white on hover */
+}

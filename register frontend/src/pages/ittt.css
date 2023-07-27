@@ -1,0 +1,87 @@
+
+  
+  /* Style for the table headers */
+  th {
+    background-color: #1e2b8a;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style for the table cells */
+  td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  /* Style for the section headings (Section A and Section B) */
+  h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style for the odd rows in the table */
+  tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for the even rows in the table */
+  tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  /* Style for the entire component */
+  .SectionTimetable {
+    margin: 20px auto;
+    width: 80%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the table headers */
+  .SectionTimetable th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style for the table cells */
+  .SectionTimetable td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  /* Style for the section headings (Section A and Section B) */
+  .SectionTimetable h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Style for the table */
+  .SectionTimetable table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style for the odd rows in the table */
+  .SectionTimetable tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for the even rows in the table */
+  .SectionTimetable tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  

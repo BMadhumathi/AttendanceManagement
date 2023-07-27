@@ -1,0 +1,137 @@
+/* ManageStudents.css */
+
+.manage-students-container {
+  display: flex;
+  justify-content: space-evenly; /* Use space-evenly to distribute the three containers with equal spacing */
+  align-items: flex-start;
+  gap: 160px; /* Add gap property to add space between the containers */
+  
+}
+
+.filters-container {
+  flex: 2;
+  max-width: 400px; /* Add a max-width to limit the width of the filters container */
+}
+
+.filters {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.filters h1 {
+  margin: 0 0 10px;
+}
+
+.filters label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.filters select {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.filters button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.table-container {
+  flex: 1;
+  max-width: 800px; /* Add a max-width to limit the width of the table container */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #392323;
+  padding: 10px;
+  text-align: center;
+}
+
+.table-container th:first-child,
+.table-container td:first-child {
+  text-align: left;
+}
+
+.table-container th {
+  background-color: #16316f;
+}
+
+.table-container input[type='text'],
+.table-container span {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  font-size: 36px;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+}
+
+.session-counts-container {
+  padding-top: 140px;
+  padding-left: 60px;
+  flex: 2;
+  max-width: 400px; /* Add a max-width to limit the width of the session counts container */
+}
+.session-counts-container div {
+  display: flex;
+  align-items: center;
+}
+
+.session-counts-container button {
+  margin-right: 10px;
+  width: 100%;
+}
+
+.session-counts-container div {
+  margin-bottom: 10px;
+  
+}
+
+.session-counts-container button {
+  padding: 16px 18px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.session-counts-container span {
+  margin-left: 10px;
+}
+.filters label {
+  display: block;
+  margin-bottom: 15px; /* Increase margin to add more space between labels */
+  font-size: 30px; /* Increase font size of labels */
+}
+
+.filters select {
+  width: 100%;
+  padding: 10px; /* Increase padding of select boxes */
+  font-size: 30px;
+}
+
+.filters button {
+  margin-top: 10px; /* Add margin to separate the button from the select boxes */
+  padding: 10px 15px; /* Increase padding of the "Fetch Students" button */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
